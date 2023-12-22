@@ -1,0 +1,32 @@
+/* pricing.css */
+.pricing-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .pricing-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:#ecf0f1 ;
+    box-shadow: #350303;
+  }
+  
+  .pricing-item h3 {
+    color: #333;
+  }
+  
+  .pricing-item p {
+    color: #666;
+  }
+  
+  .pricing-item span {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #007bff; /* Blue color for the price */
+  }
+  

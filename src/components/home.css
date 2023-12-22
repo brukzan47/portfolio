@@ -1,0 +1,118 @@
+/* Home.css */
+.img{
+    width: 100%;
+    border-radius: 100%;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1); /* Two box shadows */
+    
+}
+.fadeIn {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in-out forwards;
+  }
+  
+  .image-container {
+    max-width: 250px;
+    margin: 20px auto;
+    box-shadow: rgba(rgb(18, 7, 7), rgb(27, 56, 27), blue, alpha);
+
+  }
+  .image-container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1ceb6b;
+    margin-bottom: 20px;
+ 
+  }
+  .image-container p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1be769;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .biruk{
+    color: aqua;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .bekele{
+    color: chocolate;
+    padding-bottom: 50px;
+    
+    
+
+  }
+  .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 30px;
+    font-size: 20px;
+    color: #1be769;
+    
+    
+    
+  }
+
+
+
+ /* Add this to your home.css file */
+
+/* Style for the social media buttons */
+.button {
+    background-color: #08131e; /* Use your preferred color */
+    color: #e9f5ea;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    letter-spacing: 5px;
+    
+    
+  }
+  
+  .button:hover {
+    background-color: #1ed33d; /* Use a slightly darker shade on hover */
+  }
+  
+  /* Style for the social media icons inside the buttons */
+  .button i {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Apply a common style for all buttons */
+  .social-icons button {
+    font-size: 10px;
+  }
+   
+  
+
+
+  
+
+  
+  
+  
+  
+  

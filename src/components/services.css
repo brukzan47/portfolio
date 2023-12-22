@@ -1,0 +1,24 @@
+/* services.css */
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: rgb(82, 78, 78);
+  }
+  
+  .service-item {
+    background-color:#ecf0f1 ;
+    box-shadow:rgb(86, 78, 78);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-item h3 {
+    color: #333;
+  }
+  
+  .service-item p {
+    color: #666;
+  }
+  
